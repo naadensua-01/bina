@@ -3,15 +3,30 @@
   left: 0;
   bottom: 0;
   top: 56px;
-  width: 72px;
+  width: 74px;
   background-color: white;
-  z-index: 1;
+  z-index: 200;
+  padding-top: 5px;
 }
 .sidebar-div{
-
+  flex-direction: column;
   height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+
   
 }
 .sidebar-div:hover{
   background-color: rgb(237, 234, 234);
+}
+.sidebar-div img{
+  height: 24px;
+  margin-bottom: 4px;
+  
+}
+.sidebar-div div{
+  font-size: 9px;
 }
